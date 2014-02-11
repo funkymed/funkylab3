@@ -1,0 +1,52 @@
+.sortable {
+	background:#333;
+	width:100%;
+	border-collapse: collapse;
+	font-family:helvetica;font-size:8pt;
+}
+.sortable th{
+	font-weight:bold;
+}
+.sortable td, th {
+	padding:2px;
+	border:1px solid #eee;
+}
+.sortable tr.rowodd {
+	background-color: #f8f8f8;
+}
+.sortable tr.roweven {
+	background-color: #fff;
+}
+
+
+.sortable .sortcol {
+	background-image:url('../images/sortable.gif');
+	background-position:right center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	padding-right:20px;
+}
+.sortable .sortasc {
+	background-color:#deed0a;
+	background-image:url('../images/up.gif');
+}
+.sortable .sortdesc {
+	background-color:#0bf;
+	background-image:url('../images/down.gif');
+}
+.sortable .nosort {
+	cursor: default;
+	color:white;
+	background-image:url('../images/backtable_none.gif');
+}
+.sortable .scroll-table-head {
+      width: 100%;
+}
+.sortable .scroll-table-body {
+    width: 100%;
+    height: 400px;				
+}
+.sortable .scroll-table-body td {
+	padding-right: 20px;
+	overflow: hidden;
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<modules version="1.0">
+	<name><![CDATA[Comptes CMS]]></name>
+	<display>Y</display>
+	<config>
+		<type><![CDATA[tableau]]></type>
+		<table><![CDATA[admin]]></table>
+		<editable>Y</editable>
+		<keyorder>id</keyorder>
+		<add>Y</add>
+		<remove>Y</remove>
+		<tableau>
+			<item type="int(11)" default="" primarykey="Y">
+				<name>ID</name>
+				<key>id</key>
+				<editable>N</editable>
+				<tabdisplay>Y</tabdisplay>
+				<sortable>Y</sortable>
+				<align>center</align>
+			</item>
+			<item type="char(1)" default="N">
+				<name>Online</name>
+				<key>online</key>
+				<editable>Y</editable>
+				<tabdisplay>Y</tabdisplay>
+				<sortable>Y</sortable>
+				<align>center</align>
+				<form>checkbox</form>
+			</item>
+			<item type="varchar(255)" default="">
+				<name>Login</name>
+				<key>login</key>
+				<editable>Y</editable>
+				<tabdisplay>Y</tabdisplay>
+				<sortable>Y</sortable>
+				<align>left</align>
+				<form>input_text</form>
+			</item>
+			<item type="varchar(255)" default="">
+				<name>Mot de passe</name>
+				<key>pass</key>
+				<editable>Y</editable>
+				<tabdisplay>N</tabdisplay>
+				<sortable>N</sortable>
+				<align>center</align>
+				<form>input_text</form>
+			</item>
+			<item type="varchar(255)" default="">
+				<name>Nom</name>
+				<key>nom</key>
+				<editable>Y</editable>
+				<tabdisplay>Y</tabdisplay>
+				<sortable>Y</sortable>
+				<align>left</align>
+				<form>input_text</form>
+			</item>
+			<item type="varchar(255)" default="">
+				<name>Prenom</name>
+				<key>prenom</key>
+				<editable>Y</editable>
+				<tabdisplay>Y</tabdisplay>
+				<sortable>Y</sortable>
+				<align>left</align>
+				<form>input_text</form>
+			</item>
+			<item type="varchar(255)" default="">
+				<name>E-mail</name>
+				<key>email</key>
+				<editable>Y</editable>
+				<tabdisplay>Y</tabdisplay>
+				<sortable>Y</sortable>
+				<align>right</align>
+				<form>input_text</form>
+			</item>
+		</tableau>
+	</config>
+</modules>

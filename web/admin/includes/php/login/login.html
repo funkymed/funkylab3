@@ -1,0 +1,31 @@
+<form onsubmit="return false;" id="EditFormItems">
+	<div id="idFormItems">
+	
+	
+
+	
+		<div class="buttons" style="width: 100%; text-align: right;">
+			<img src="images/logof3.png" alt="" />
+		</div>
+		<label for="input_text_1">Login : </label>
+		<div class="field">
+			<input value="" id="login" name="login" onfocus="focused(this);" onblur="blurred(this);" type="text" />
+		</div>
+		<div style="clear: both; height: 10px;"/>
+		<label for="input_text_1">Mot de passe : </label>
+		<div class="field">
+			<input value="" id="mdp" name="mdp" onfocus="focused(this);" onblur="blurred(this);" type="password" />
+		</div>
+		<div style="clear: both; height: 10px;"/>
+		<div class="buttons" style="width: 100%; text-align: center;">
+			<div id="error" style="display:none;width: 100%; text-align: center;color:red;">&nbsp;</div>
+			<button type="button" onclick="loginAdmin();">
+				<img src="images/tick.png" alt="Connexion" />
+				Connexion
+			</button>
+
+		</div>
+		
+		
+	</div>
+</form>

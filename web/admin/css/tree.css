@@ -1,0 +1,88 @@
+.arboTree {
+	text-align: left;
+	
+	color:#555;
+}
+
+.arboTree, .arboTree table div{
+	font-size: 7pt;
+	font-family:helvetica;
+}
+
+.arboTree, .arboTree span, .arboTree img, .arboTree div {
+	margin: 0;
+	padding: 0;
+}
+
+.arboTree table {
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+}
+
+.arboTree table tr, .arboTree table td {
+	
+	margin: 0;
+	padding: 0;
+}
+
+.arboTree table td {
+	vertical-align: top;
+}
+
+.arboTree .arboTreedrag {
+	cursor: pointer;
+}
+
+.arboTree .arboTreecontent {
+	padding: 0 0.1em;
+}
+
+.arboTree .arboTreecanevas {
+	vertical-align: middle;
+}
+
+.arboTree .arboTreeselected {
+	color:white;background:#00bbff;
+}
+
+.arboTree .arboTreeeditable {
+	display: none;
+	padding: 0 0.2em;
+	
+	background-color: #555;
+	color:white;
+}
+
+.arboTree .arboTreedragOver {
+	background-color: #ff5555;
+	color: #EEEEFF;
+}
+
+.arboTree_row{
+	margin:0px;padding:0px;
+}
+
+#arbotree {float:left;}
+#arbotree a {
+	font-family:helvetica;
+	font-size:9pt;
+	margin:1px;padding:1px;
+	padding-left:5px;padding-right:5px;
+	text-decoration:none;
+	color:#555;background:#eee;
+}
+#arbotree a:hover{
+	color:#eee;background:#555;
+}
+
+#arbotree input{
+	font-family:helvetica;
+	font-size: 7pt;
+	border-collapse:collapse;
+	border:1px #ddd solid;margin-left:2px;
+}
+#arbotree input:hover{
+	border-collapse:collapse;
+	border:1px #ccc solid;
+}
