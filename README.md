@@ -1,4 +1,4 @@
-funkylab3
+Funkylab3
 =========
 
 #Introduction
