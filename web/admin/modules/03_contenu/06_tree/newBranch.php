@@ -1,4 +1,4 @@
-<?
+<?php
 	include "../../../includes/php/bddconf.php";
 	
 	$query= "INSERT INTO page (titre,parent,fait_le) VALUES ('nouvelle page',".$_POST['branch_id'].",now())";

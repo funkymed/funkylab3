@@ -1,4 +1,4 @@
-<?
+<?php
 	
 	$dir_root="../../../../";
 	$dirinclude="includes/php/filemanager/";
@@ -219,7 +219,7 @@
 				echo $image_dest,$dir."/".$originalfile;
 				
 				if(!imagejpeg($image_dest,$dir."/".$originalfile)){
-					echo "la création de la vignette a echouée pour l'image $image";
+					echo "la crï¿½ation de la vignette a echouï¿½e pour l'image $image";
 					exit;
 				} 
 				@chmod($dir."/".$file,0777);

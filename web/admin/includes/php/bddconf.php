@@ -4,18 +4,11 @@ switch($strServeur){
     case "localhost":
         $host       = "localhost";
         $user       = "root";
-        $pass       = "xxxx";
+        $pass       = "";
         $bdd        = "f3";
         $ext_site   = "f3";
-        $url        = "http://localhost/f3.funkylab.info/web/";
+        $url        = "http://localhost/github/funkylab3/web/";
         break;
-    default:
-        $host       = 'localhost:/tmp/mysql5.sock';
-        $user       = "user";
-        $pass       = "pass";
-        $bdd        = "bdd";
-        $ext_site   = "funkylab3";
-        $url        = "http://localhost/f3.funkylab.info/web/";
 }
 
 define ("bdd",          $bdd);

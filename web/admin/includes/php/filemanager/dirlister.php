@@ -130,10 +130,10 @@
 		function get_json(){
 			$arrayDir=null;
 			$arrayFile=null;
-			if ($this->all_dir["COUNT"]>0){
+			if (isset($this->all_dir["COUNT"]) && $this->all_dir["COUNT"]>0){
 				$arrayDir=$this->all_dir;
 			}
-			if ($this->all_file["COUNT"]>0){
+      if (isset($this->all_file["COUNT"]) && $this->all_file["COUNT"]>0){
 				$arrayFile=$this->all_file;
 			}
 			return $this->array2json(array(array("DIR"=>$arrayDir,"FILE"=>$arrayFile)));

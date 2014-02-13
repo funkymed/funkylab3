@@ -1,4 +1,4 @@
-<?
+<?php
 	$dir_root="../../../../";
 	$dirinclude="includes/php/filemanager/";	
 	

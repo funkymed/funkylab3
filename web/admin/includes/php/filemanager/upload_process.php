@@ -1,7 +1,5 @@
 <?php
 	
-	print_r($_GET);
-	
 	$uploaddir = "../../../../".$_GET['dir'];
 	
 	if ($_FILES['Filedata']){

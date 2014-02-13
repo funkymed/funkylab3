@@ -1,7 +1,6 @@
-<?
+<?php
 	header('Content-Type: text/html; charset: UTF-8');
 	
-	print_r($_POST);
 	require_once("bddconf.php");
     require_once("xmlparser.php");
 	$xmlfile="../../".$_POST["xmlfile"]."/modules.xml";
