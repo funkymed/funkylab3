@@ -1,16 +1,16 @@
 Funkylab3
 =========
 
-#Introduction
+# Introduction
 
 Funkylab3 is an easy and fast way to make online app without coding.
 You only have to make directory and make xml file to create an app.
 
-##Author
+## Author
 
 Cyril Pereira http://www.cyrilpereira.com
 
-##How to install
+## How to install
 
 In mysql make a database like 'f3'
 ~~~
@@ -38,6 +38,6 @@ switch($strServeur){
 }
 ~~~
 
-##How to use
+## How to use
 
 i will take time to explain all the posibilities soon.
